@@ -2,12 +2,12 @@
 # mapping of chair to braille dots
 
 braille = dict()
-braille[1] = 0
-braille[2] = 16
-braille[3] = 32
-braille[4] = 2
-braille[5] = 18
-braille[6] = 34
+braille[1] = 1
+braille[2] = 2
+braille[3] = 3
+braille[4] = 4
+braille[5] = 5
+braille[6] = 6
 
 vibration = dict()
 vibration["letter"] = 1
@@ -247,3 +247,62 @@ _
 @
 *
 """
+
+# cells to chars conversion
+cellsToChars = dict()
+cellsToChars[0] = ' '
+cellsToChars[91] = '1'
+cellsToChars[1] = 'a'
+cellsToChars[912] = '2'
+cellsToChars[12] = 'b'
+cellsToChars[123] = 'l'
+cellsToChars[1234] = 'p'
+cellsToChars[12345] = 'q'
+cellsToChars[1235] = 'r'
+cellsToChars[1236] = 'v'
+cellsToChars[9124] = '6'
+cellsToChars[124] = 'f'
+cellsToChars[91245] = '7'
+cellsToChars[1245] = 'g'
+cellsToChars[9125] = '8'
+cellsToChars[125] = 'h'
+cellsToChars[13] = 'k'
+cellsToChars[134] = 'm'
+cellsToChars[1345] = 'n'
+cellsToChars[13456] = 'y'
+cellsToChars[1346] = 'x'
+cellsToChars[135] = 'o'
+cellsToChars[1356] = 'z'
+cellsToChars[136] = 'u'
+cellsToChars[914] = '3'
+cellsToChars[14] = 'c'
+cellsToChars[9145] = '4'
+cellsToChars[145] = 'd'
+cellsToChars[915] = '5'
+cellsToChars[15] = 'e'
+cellsToChars[2] = ','
+cellsToChars[23] = ';'
+cellsToChars[234] = 's'
+cellsToChars[2345] = 't'
+cellsToChars[235] = '!'
+cellsToChars[2356] = '"'
+cellsToChars[2356] = '('
+cellsToChars[2356] = ')'
+cellsToChars[2356] = '['
+cellsToChars[2356] = ']'
+cellsToChars[236] = '?'
+cellsToChars[236] = '“'
+cellsToChars[924] = '9'
+cellsToChars[24] = 'i'
+cellsToChars[9245] = '0'
+cellsToChars[245] = 'j'
+cellsToChars[2456] = 'w'
+cellsToChars[25] = ':'
+cellsToChars[256] = '.'
+cellsToChars[3] = '\''
+cellsToChars[34] = '/'
+cellsToChars[345] = '@'
+cellsToChars[3456] = '#'
+cellsToChars[35] = '*'
+cellsToChars[356] = '”'
+cellsToChars[36] = '-'
